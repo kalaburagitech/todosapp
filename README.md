@@ -11,6 +11,17 @@ A modern, responsive notes and to-do application backed by a local `notes.json` 
 
 For development with automatic server restarts, run `npm run dev`.
 
+## Vercel deployment
+
+This repository includes `api/index.js` and `vercel.json`, so Vercel routes the
+website and API through an Express Serverless Function. Select **Other** as the
+framework preset and use `npm run build` as the build command.
+
+> Vercel's function filesystem is not durable. `notes.json` is ideal for local
+> development, but notes created or edited on Vercel can be lost when a function
+> instance is replaced. Use a hosted database (such as Vercel Postgres,
+> Supabase, or Neon) before relying on the deployed app for persistent data.
+
 ## Project structure
 
 ```

@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
-    "build": "node --check src/server.js && node --check src/models/noteModel.js && node --check src/services/noteService.js && node --check src/routes/notesRoutes.js && node --check public/app.js",
+    "build": "node --check src/app.js && node --check src/server.js && node --check api/index.js && node --check src/models/noteModel.js && node --check src/services/noteService.js && node --check src/routes/notesRoutes.js && node --check public/app.js",
     "test": "node --test"
   },
   "engines": {
