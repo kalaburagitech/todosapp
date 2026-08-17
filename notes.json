@@ -1,0 +1,42 @@
+[
+  {
+    "id": "NOTE001",
+    "heading": "Welcome to Notes",
+    "description": "Create, edit, search, sort, and safely delete your notes. Deleted notes are retained in notes.json.",
+    "date": "2026-08-17",
+    "time": "10:30 AM",
+    "createdAt": "2026-08-17T10:30:00.000Z",
+    "updatedAt": "2026-08-17T10:30:00.000Z",
+    "isDeleted": false
+  },
+  {
+    "id": "NOTE002",
+    "heading": "Stock Market News",
+    "description": "Major technology companies announced new AI features and investments. Review the latest developments and prepare a summary.",
+    "date": "2026-08-17",
+    "time": "03:41",
+    "createdAt": "2026-08-17T10:11:54.370Z",
+    "updatedAt": "2026-08-17T10:12:39.081Z",
+    "isDeleted": false
+  },
+  {
+    "id": "NOTE003",
+    "heading": "Sports",
+    "description": "Review today's cricket and football highlights, including match results, player performances, and upcoming fixtures.",
+    "date": "2026-08-17",
+    "time": "03:48",
+    "createdAt": "2026-08-17T10:18:59.067Z",
+    "updatedAt": "2026-08-17T10:19:09.006Z",
+    "isDeleted": false
+  },
+  {
+    "id": "NOTE004",
+    "heading": "Breaking News",
+    "description": "Government announced new digital transformation initiatives for public services.",
+    "date": "2026-08-17",
+    "time": "04:00 PM",
+    "createdAt": "2026-08-17T10:25:51.552Z",
+    "updatedAt": "2026-08-17T10:26:51.256Z",
+    "isDeleted": false
+  }
+]
